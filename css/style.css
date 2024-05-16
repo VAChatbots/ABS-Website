@@ -1,0 +1,461 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .container {
+  max-width: 144rem;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p {
+  margin: 0;
+}
+
+body h1,
+body h2,
+body h3 {
+  font-family: "Audiowide", sans-serif;
+}
+
+body h4,
+body h5,
+body h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+#header {
+  background: #000;
+  padding: 2rem 0;
+}
+
+#header .nav-item {
+  color: #FFF;
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 2.4rem;
+}
+
+#header .nav-item .nav-link {
+  color: #fff;
+}
+
+#header .nav-item .navBtn {
+  padding: 1.1rem 1.9rem;
+  border-radius: 1rem;
+  background: #219DEC;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+#header .navbar-toggler .fa-bars {
+  font-size: 3rem;
+  color: #fff;
+}
+
+#banner {
+  padding: 17.5rem 0;
+  text-align: center;
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #000;
+}
+.banner-2{
+  background-image: url(../images/banner-2.png) !important;
+  background-size: 100% 100% !important;
+}
+.mainBanner{
+  padding: 33.5rem 0 !important;
+
+}
+#banner .bannerTitle {
+  max-width: 111.6rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#banner .bannerTitle span {
+  color: #219DEC;
+}
+
+#banner .bannerText {
+  color: #FFF;
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 0.4rem;
+  line-height: normal;
+}
+
+#banner .ctaBtn {
+  border-radius: 1rem;
+  border: 2px solid #FFF;
+  background: rgba(0, 0, 0, 0.73);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 1.1rem 3.2rem;
+  font-family: "Audiowide", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 3.2rem;
+  text-transform: uppercase;
+  background: #219DEC;
+}
+
+#abs {
+  padding: 9.6rem 0;
+}
+
+#abs .absTitle {
+  color: #222;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sectionTitle {
+  color: #000;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.sectionTitle span {
+  color: #219DEC;
+}
+
+.details {
+  color: #000;
+  font-size: 2rem;
+  max-width: 124.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#ourServices {
+  padding: 9.6rem 0;
+  background: #FAFAFA;
+}
+
+#ourServices .allServices {
+  padding-top: 4.8rem;
+}
+
+#ourServices .allServices .card {
+  padding: 2.8rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  background-color: #000;
+  min-height: 28.8rem;
+}
+
+#ourServices .allServices .card .card-title {
+  color: #FFF;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 34rem;
+}
+
+#ourServices .allServices .col:nth-child(1) .card {
+  background: url(../images/card-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#ourServices .allServices .col:nth-child(2) .card {
+  background: url(../images/card-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#ourServices .allServices .col:nth-child(3) .card {
+  background: url(../images/card-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#ourServices .allServices .card .card-btns .btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #fff;
+  min-width: 17rem;
+  border-radius: 0.5rem;
+}
+
+#contactus {
+  padding: 9.6rem 0;
+  text-align: center;
+  background-color: #000;
+  background-image: url(../images/contactBanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#contactus .sectionTitle {
+  max-width: 124.8rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+
+#contactus .sectionTitle span {
+  color: #219DEC;
+}
+
+#contactus .contactBtn {
+  margin-top: 2rem;
+  padding: 1.5rem 5.5rem;
+  color: #FFF;
+  font-family: "Audiowide", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 1rem;
+  border: 2px solid #FFF;
+  background: rgba(0, 0, 0, 0.73);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  text-transform: uppercase;
+}
+
+#footer {
+  padding: 3.2rem 0;
+  background: #000;
+}
+
+#footer .copyright {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 6.2rem;
+}
+
+#footer .ifnoTitle {
+  color: #FFF;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#footer .infoTxt {
+  color: #219DEC;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 0.8rem;
+}
+
+#footer .footer-nav {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 3.2rem;
+}
+
+#footer .card {
+  background: transparent;
+  border: none;
+}
+
+#worflow {
+  padding-top: 2.4rem;
+  padding-bottom: 9.6rem;
+}
+
+#worflow .workFlowBtn {
+  border-radius: 1rem;
+  border: 1px solid #FFF;
+  background: #219DEC;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  color: #FFF;
+  font-family: "Audiowide", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem 2.4rem;
+}
+
+#worflow .sectionSmlTitle {
+  padding-top: 4.8rem;
+  color: #000;
+  font-family: "Audiowide", sans-serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#worflow .details {
+  padding-top: 1.4rem;
+}
+
+#worflow .buttonGroup li {
+  padding-right: 1.6rem;
+}
+
+#worflow .buttonGroup li a {
+  border-radius: 1rem;
+  border: 2px solid #000;
+  background: #fff;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  color: #000;
+  font-family: "Audiowide", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem 2.4rem;
+}
+
+#worflow .buttonGroup li a.active {
+  border: 1px solid #FFF;
+  background: #219DEC;
+  color: #fff;
+}
+
+#contactForm {
+  padding: 9.6rem 0;
+}
+
+#contactForm .sectionTitle {
+  font-size: 4rem;
+  max-width: 61.2rem;
+  padding-bottom: 3rem;
+}
+
+#contactForm .contactForm {
+  padding: 3.2rem;
+  border-radius: 1rem;
+  background: #FFF;
+  box-shadow: 0px 0px 12.6px 0px rgba(0, 0, 0, 0.09);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+#contactForm .contactForm .singleInput {
+  margin-bottom: 1.6rem;
+}
+
+#contactForm .contactForm .singleInput input,
+#contactForm .contactForm .singleInput textarea {
+  border-radius: 1rem;
+  background: #FAFAFA;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  color: #000;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.8rem 2.4rem;
+}
+
+#contactForm .contactForm .singleInput input::placeholder {
+  color: #636363;
+}
+
+#contactForm .contactForm .singleInput input.submitBtn {
+  background: #219DEC;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  html {
+    font-size: 7px;
+  }
+
+  #header .nav-item {
+    margin-left: 0;
+    margin-top: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 7px;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  #header .nav-item {
+    margin-left: 0;
+    margin-top: 1.25rem;
+  }
+
+  #ourServices .allServices .card .card-btns .btn {
+    display: none;
+  }
+}
